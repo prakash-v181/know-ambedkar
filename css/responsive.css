@@ -1,0 +1,118 @@
+
+@media (min-width: 1201px) and (max-width: 5000px) {
+	.carousel-dark .carousel-caption p{	line-height: 22px;
+	font-weight:600;     font-size: 16px;}
+	.admnsTabDiv ul li{margin: 4px 0px;}
+.listBook {
+min-height: 430px;}
+
+	
+	
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+		.carousel-dark .carousel-caption p{	line-height: 16px;
+		font-weight:600; font-size: 13px;}
+		.admnsTabDiv ul li{margin: 4px 0px;}
+			.header-area .primary-menu ul > li > a {
+    padding: 11px 12px!important;}
+	.header-area .primary-menu ul li a {
+    font-size: 1.6rem!important;}
+	.listBook {
+min-height: 430px;}
+
+	
+}
+
+
+/* Tablet desktop :768px. */
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.carousel-dark .carousel-caption p{	line-height: 14px;
+		font-weight:600; font-size: 11px;}
+			.listBook {
+min-height: 430px;}
+	
+}
+
+@media (max-width: 991px) {
+    :root {
+        font-size: 56.5%;
+    }
+    .section{
+        padding: 6rem 0;
+    }
+    .section-top{
+        padding: 6rem 0 0 0;
+    }
+    .section-bottom{
+        padding: 0 0 6rem 0;
+    }
+    .pb-110 {
+        padding-bottom: 3rem;
+    }
+    .pt-110 {
+        padding-top: 3rem;
+    }
+}
+
+/*  Small mobile :320px. */
+
+@media (min-width: 320px) and (max-width: 576px) {
+	.section{
+        padding: 0rem 0;
+    }
+    .section-top{
+        padding: 5rem 0 0 0;
+    }
+    .section-bottom{
+        padding: 0 0 5rem 0;
+    }
+    .pb-110 {
+        padding-bottom: 2rem;
+    }
+    .pt-110 {
+        padding-top: 2rem;
+    }
+	.carousel-dark .carousel-caption{width: 100%!important;  bottom: -3px!important; padding: 5px 0!important;}
+	.carousel-dark .carousel-caption p{	line-height: 6px;
+		font-weight:600; font-size: 5px;}
+	.listBookOutr{    margin-bottom: 30px;}	
+		
+		
+    
+}
+
+
+/* Large Mobile :577px. */
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+	.section{
+        padding: 0rem 0;
+    }
+    .section-top{
+        padding: 5rem 0 0 0;
+    }
+    .section-bottom{
+        padding: 0 0 5rem 0;
+    }
+    .pb-110 {
+        padding-bottom: 2rem;
+    }
+    .pt-110 {
+        padding-top: 2rem;
+    }
+	
+	.carousel-dark .carousel-caption{width: 98%!important;  bottom: 1px!important; padding: 5px!important;}
+		.carousel-dark .carousel-caption p{	line-height: 10px;
+		font-weight:600; font-size: 8px;}
+	
+		.listBookOutr{    margin-bottom: 30px;}	
+	
+	
+}
+
